@@ -59,7 +59,7 @@ public class JacksonConfigTest {
                 hasJtsModuleRegistered = true;
             }
         }
-        Assertions.assertTrue(hasJtsModuleRegistered, "JTS Module is not registrered in ObjectMapper");
+        Assertions.assertTrue(hasJtsModuleRegistered, "JTS Module is not registered in ObjectMapper");
     }
 
     @Test
